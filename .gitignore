@@ -1,13 +1,17 @@
-# Ignore node modules
+# Ignore node_modules folder
 node_modules/
-# Ignore environment variables
-.env
-# Ignore logs
-*.log
-# Ignore build outputs (optional)
-dist/
-build/
-# Ignore OS files
-.DS_Store
-Thumbs.db
 
+# Ignore .env files
+.env
+
+# Ignore log files
+*.log
+
+# Ignore the dist folder (if any)
+dist/
+
+# Ignore build folder (if any)
+build/
+
+# Ignore package-lock.json (optional, based on preference)
+package-lock.json
